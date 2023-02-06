@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Megrim&display=swap'); /*This is a link to a google external font*/
+h1 { color:rgb(193, 92, 58); /* My header 1 elements*/
+    text-align: center; 
+    text-decoration-line: underline;
+    font-family: 'Megrim', cursive;  /*Google linked Megrim Font used here and in h2 */
+    font-weight: bold;
+    font-size: 60px;   /*Increase in font size */
+}
+a:link, a:visited {  /*Using the guide to make the links into a button, Changed some elements like colors */
+    background-color: #8f1d15;
+    color: rgb(173, 241, 167);
+    padding: 14px 25px;
+    text-align: center;  /*I'm not sure why this is not working i want them to start at the center*/
+    margin: auto;
+    text-decoration: none;  
+    display: inline-block;
+  }
+ 
+  a:hover, a:active {   /*When hovering over link changes to a blue color */
+    background-color: rgb(55, 0, 255);
+  }
+h2 { color:rgb(193, 92, 58) ; /* Header two elements, sliglty smaller */ 
+    text-decoration-line: underline;
+    font-family: 'Megrim', cursive;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+body {  /*Moved all the body elements to css */
+    font-family: "Times New Roman", Times, serif;
+    background: url(Progbackground.jpg); /*This is the background image*/
+    color: rgb(253, 187, 193);
+    text-align: justify;
+    font-size: larger;
+}
+.center { /*Centering the background image*/
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  
