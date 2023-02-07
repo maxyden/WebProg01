@@ -6,6 +6,10 @@ h1 { color:rgb(193, 92, 58); /* My header 1 elements*/
     font-weight: bold;
     font-size: 60px;   /*Increase in font size */
 }
+nav{
+  text-align: center; 
+
+}
 a:link, a:visited {  /*Using the guide to make the links into a button, Changed some elements like colors */
     background-color: #8f1d15;
     color: rgb(173, 241, 167);
@@ -27,7 +31,7 @@ h2 { color:rgb(193, 92, 58) ; /* Header two elements, sliglty smaller */
 }
 
 body {  /*Moved all the body elements to css */
-    font-family: "Times New Roman", Times, serif;
+    font-family: "calibri";
     background: url(Progbackground.jpg); /*This is the background image*/
     color: rgb(253, 187, 193);
     text-align: justify;
