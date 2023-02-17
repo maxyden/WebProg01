@@ -4,10 +4,12 @@ h1 { color:rgb(193, 92, 58); /* My header 1 elements*/
     text-decoration-line: underline;
     font-family: 'Megrim', cursive;  /*Google linked Megrim Font used here and in h2 */
     font-weight: bold;
-    font-size: 60px;   /*Increase in font size */
+    font-size: 260%;   /*Increase in font size */
+    text-indent: 0%;
 }
-nav{
+nav{ /*aligning links to center*/
   text-align: center; 
+  text-indent: 0%;
 
 }
 a:link, a:visited {  /*Using the guide to make the links into a button, Changed some elements like colors */
@@ -18,6 +20,8 @@ a:link, a:visited {  /*Using the guide to make the links into a button, Changed 
     margin: auto;
     text-decoration: none;  
     display: inline-block;
+    text-indent: 0%;
+    font-size: larger;
   }
  
   a:hover, a:active {   /*When hovering over link changes to a blue color */
@@ -27,15 +31,19 @@ h2 { color:rgb(193, 92, 58) ; /* Header two elements, sliglty smaller */
     text-decoration-line: underline;
     font-family: 'Megrim', cursive;
     font-weight: bold;
-    font-size: 40px;
+    font-size: 200%;
+    text-indent: 0%;
 }
 
 body {  /*Moved all the body elements to css */
     font-family: "calibri";
-    background: url(Progbackground.jpg); /*This is the background image*/
-    color: rgb(253, 187, 193);
+    background-size: 100%;
+    background: url(Progbackground.jpg) ; /*This is the background image*/
+    color: rgb(250, 198, 202);
     text-align: justify;
-    font-size: larger;
+    font-size: 150%;
+    margin: 5%;
+    text-indent: 10%;
 }
 .center { /*Centering the background image*/
     display: block;
@@ -43,4 +51,15 @@ body {  /*Moved all the body elements to css */
     margin-right: auto;
     width: 50%;
   }
-  
+.Gif { /*Sizing down the gif*/
+  display: block;
+  width: 10%;
+  height: 10%;
+
+  }
+.embedd { /* property for the embedded files, could not get all the styles to work in css*/
+  width: 30%;
+  height:10%; 
+  font-size: 10px; 
+  color: #cccccc;
+}
